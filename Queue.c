@@ -28,7 +28,7 @@ void display()
 	printf("Queue is empty");
 	else
 	{
-		printf("\n\nThe Elements of the queue are as follows....\n");
+		printf("\n\nThe Elements of the queue are as follows: \n");
 		for(i=front;i<=rear;i++)
 		printf("%d\n",a[i]);
 	}
@@ -54,7 +54,7 @@ int main()
 			break;
 			case 3:display();
 			break;
-			case 4:printf("Thanks for using the program......Program terminated...");
+			case 4:printf("Exit");
 			c=1;
 			break;
 			default:printf("Invalid Choice..");
